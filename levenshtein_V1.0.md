@@ -10,8 +10,8 @@ The Levenshtein formula calculates the Levenshtein distance between two strings,
 
 | Arguments | Type | Description | Values |
 |:--------------|:-------:|:-------------------------------------------------------------|:--------------------------------|
-| firstWord     | Variant | First element to compare.                                     | `true`/`t` <br> `false`/`f` <br> **OMITTED**: `TRUE` |
-| nextWord      | Variant | Second element to compare.                                    | `true`/`t` <br> `false`/`f` <br> **OMITTED**: `TRUE` |
+| firstWord     | Variant | First element to compare.                                     |  |
+| nextWord      | Variant | Second element to compare.                                    |  |
 | caseSensitive | Bool    | Defines if the Levenshtein comparison is case-sensitive.    | `TRUE`/`t` <br> `FALSE`/`f` <br> **OMITTED**: `TRUE` |
 | outputType    | Str     | Defines the output type: a numerical integer (count of differences) or percentage of difference (based on the longer word). | `percent`/`p`/`%` <br> `integer`/`i`/`numeric`/`number` <br> **OMITTED**: `i` |
 | printTable    | Str     | Defines the format of the output: the entire table (`true`), only the numerical part of the table (`numeric only`), or the Levenshtein value (`false`). | `true`/`t` <br> `false`/`f` <br> `numeric only`/`no` <br> **OMITTED**: `f` |
